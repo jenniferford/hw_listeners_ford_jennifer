@@ -1,13 +1,18 @@
+//Header background changes color when clicked on
+
 var headerColor = document.getElementById( 'header' );
         headerColor.addEventListener('click', function(){
         headerColor.style.backgroundColor = '#FFB7B7';
     });
 
+//Container color changes background color on mouseover
 
 var backgroundColor = document.getElementById( 'container' );
         backgroundColor.addEventListener('mouseover', function(){
         backgroundColor.style.backgroundColor = '#cdcdb4';
     });
+
+//Image is swapped out for another image on click
 
         var image = document.getElementById("image_click");
 image.addEventListener("click", function(){
