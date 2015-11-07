@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image :url("https://thepigandquill.files.wordpress.com/2013/03/oatmeal-linen-paper-texture.jpeg");
+}
+
+header{
+	background-color:#9CBA7F;
+	margin:auto;
+	color: #ffffff;
+}
+header h1{
+	line-height:60px;
+	text-align: center;
+
+}
+
+.container{
+	margin:auto;
+	padding: 4em;
+	background-color:#ffffff;
+}
+
+footer{
+	background-color:#9CBA7F;
+}
+
+footer h3{
+		color: #ffffff;
+		text-align: center;
+		line-height:60px;
+	}
